@@ -1,0 +1,33 @@
+{
+  "name": "honey-backend",
+  "version": "1.0.0",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "export NODE_ENV=dev && nodemon app.js",
+    "production": "export NODE_ENV=production && node app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/slpv/honey-backend.git"
+  },
+  "author": "Alexandr Solopov <alexander.so@outlook.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/slpv/honey-backend/issues"
+  },
+  "homepage": "https://github.com/slpv/honey-backend#readme",
+  "description": "",
+  "dependencies": {
+    "bcrypt": "^5.0.0",
+    "cookie-parser": "^1.4.5",
+    "express": "^4.17.1",
+    "express-handlebars": "^5.2.0",
+    "jsonwebtoken": "^8.5.1",
+    "mongoose": "^5.11.11",
+    "transliteration": "^2.2.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.7"
+  }
+}

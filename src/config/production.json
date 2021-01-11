@@ -1,0 +1,14 @@
+{
+  "PORT": 4000,
+  "DATABASE": {
+    "MONGO": {
+      "URI": ""
+    }
+  },
+  "PAY_SYSTEM": {
+    "YANDEX_KASSA": {
+      "SECRET_KEY": "",
+      "CALLBACK_URL": ""
+    }
+  }
+}
